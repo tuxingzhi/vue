@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style src="flatBlueSeries_min.css"></style>
+
+    <script src="jquery-1.8.3.min.js"></script>
+    <script src="vue-1.0.24.min.js"></script>
+
+   
+    
+
+
+
+
+</head>
+
+<body>
+    <div id="box">
+        {{aa}}
+        <component-tab ></component-tab>
+         <component-tab :tab-list="[{text:'能耗分析'}, {text:'能耗对比'}]" :handle="'energyTabEv'"></component-tab>
+        <!--<component-combobox :combobox-title="'hhh'">
+        </component-combobox>
+        <component-combobox :combobox-title="'数据类型：总能耗'" :combobox-list="enTypeList" :added-name="'数据类型：'" :dispatch="'selDateType'" :key-name="'text'" :dispatch-hd="'selDataTypeHd'"></component-combobox>-->
+
+    </div>
+</body>
+
+</html>
+
+ <script src="component.js"></script>
+
+<script src="model.js"></script>
