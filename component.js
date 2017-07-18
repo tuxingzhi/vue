@@ -1,5 +1,5 @@
 ﻿
-
+// 参数里面之所以有undefined，是为了防止undefined被污染。
 (function (window,$,Vue,undefined) {
     Vue.component('big-box', {
         template: '#bigBox',
